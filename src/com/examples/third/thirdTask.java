@@ -3,10 +3,10 @@ package com.examples.third;
 import java.util.Scanner;
 
 public class thirdTask {
-    private static ContactBook<Phone> friendsContactBook = new ContactBook<>();
-    private static ContactBook<Email> colleaguesContactBook = new ContactBook<>();
-    private static ContactBook<SocialNetworkContact> classmatesContactBook = new ContactBook<>();
-    private static ContactBook<Address> relativesContactBook = new ContactBook<>();
+    private static final ContactBook<Phone> friendsContactBook = new ContactBook<>();
+    private static final ContactBook<Email> colleaguesContactBook = new ContactBook<>();
+    private static final ContactBook<SocialNetworkContact> classmatesContactBook = new ContactBook<>();
+    private static final ContactBook<Address> relativesContactBook = new ContactBook<>();
 
     public static void outPut(){
         fillBooks();
