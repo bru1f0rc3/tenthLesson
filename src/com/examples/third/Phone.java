@@ -12,14 +12,13 @@ public class Phone extends Contact{
         return phoneNumber;
     }
 
-    // Метод sendMessage переопределяет метод базового класса
     @Override
     public void sendMessage(){
-        System.out.println("Звоним другу по номеру "+phoneNumber+" и зовем на кофе.");
+        System.out.println("Звоним другу по номеру " + phoneNumber + " и зовем на кофе.");
     }
 
     @Override
     public void print(){
-        System.out.println("Номер телефона: "+getPhoneNumber());
+        System.out.println("Номер телефона: " + getPhoneNumber());
     }
 }

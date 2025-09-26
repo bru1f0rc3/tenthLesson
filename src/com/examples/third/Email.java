@@ -12,14 +12,13 @@
             return email;
         }
 
-        // Метод sendMessage переопределяет метод базового класса
         @Override
         public void sendMessage(){
-            System.out.println("Отправим новогоднюю картинку коллеге на электронную почту "+email);
+            System.out.println("Отправим новогоднюю картинку коллеге на электронную почту " + email);
         }
 
         @Override
         public void print(){
-            System.out.println("Email: "+getEmail());
+            System.out.println("Email: " + getEmail());
         }
     }

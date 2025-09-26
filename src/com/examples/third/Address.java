@@ -18,15 +18,14 @@ public class Address extends Contact{
         return address;
     }
 
-    // Метод sendMessage переопределяет метод базового класса
     @Override
     public void sendMessage(){
-        System.out.println("Отправим открытку в город "+city+" по адресу: "+address);
+        System.out.println("Отправим открытку в город " + city + " по адресу: "+address);
     }
 
     @Override
     public void print(){
-        System.out.println("Город: "+getCity());
-        System.out.println("Адрес: "+getAddress());
+        System.out.println("Город: " + getCity());
+        System.out.println("Адрес: " + getAddress());
     }
 }
